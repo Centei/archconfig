@@ -1,0 +1,12 @@
+[submodule "dwm"]
+	path = dwm
+	url = https://github.com/Centei/dwm
+[submodule "dmenu"]
+	path = dmenu
+	url = https://github.com/Centei/dmenu
+[submodule "st"]
+	path = st
+	url = https://github.com/Centei/st
+[submodule "slstatus"]
+	path = slstatus
+	url = https://github.com/Centei/slstatus

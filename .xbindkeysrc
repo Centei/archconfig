@@ -1,0 +1,19 @@
+# Increase volume
+"pactl set-sink-mute @DEFAULT_SINK@ false ; pactl set-sink-volume @DEFAULT_SINK@ +2%"
+   XF86AudioRaiseVolume
+
+# Decrease volume
+"pactl set-sink-mute @DEFAULT_SINK@ false ; pactl set-sink-volume @DEFAULT_SINK@ -2%"
+   XF86AudioLowerVolume
+
+# Mute volume
+"pactl set-sink-mute @DEFAULT_SINK@ toggle"
+   XF86AudioMute
+
+# Mute microphone
+"pactl set-source-mute @DEFAULT_SOURCE@ toggle"
+   XF86AudioMicMute
+
+# Take Full Screenshot
+"shotgun -s ~/Pictures/"$(date +'%F_T%H-%M-%S')".png"
+   Print
